@@ -15,7 +15,7 @@ snippet.save()
 
 # serilize the snippet
 serializer = SnippetSerializer(snippet)
-serializers.data
+serializer.data
 # {'id': 2, 'title': '', 'code': 'print("hello, world")\n', 'linenos': False, 'language': 'python', 'style': 'friendly'}
 
 # render the data into json
